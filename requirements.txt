@@ -1,0 +1,6 @@
+ipython 
+pdbpp 
+polars 
+sentence_transformers 
+duckdb 
+sphinx
