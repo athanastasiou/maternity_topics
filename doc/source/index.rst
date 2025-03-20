@@ -32,4 +32,5 @@ This site describes the work involved in item #2.
    :caption: Contents:
 
    installation
+   running_queries
 
