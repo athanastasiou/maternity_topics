@@ -1,3 +1,5 @@
+T = 0.39
+
 InfrasThemeDetails_complete.csv: HRCThemes.csv  InfrasThemeDetails.csv
 	tail -n +2 HRCThemes.csv| cat InfrasThemeDetails.csv - > InfrasThemeDetails_complete.csv
 	

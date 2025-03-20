@@ -1,4 +1,4 @@
-.. MaternityTopics documentation master file, created by
+.git remote add origin git@github.com:athanastasiou/maternity_topics.git. MaternityTopics documentation master file, created by
    sphinx-quickstart on Thu Mar 20 12:19:41 2025.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -30,4 +30,6 @@ This site describes the work involved in item #2.
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
+   installation
 
