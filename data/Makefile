@@ -76,5 +76,11 @@ MaternalAndNeonatalHealthRisksAndDiscovery.csv: add_embeddings
 
 subject_specific_search: AccessAndExperience.csv SafetyAndQualityInPerinatalAndNeonatalCare.csv MaternalAndMentalHealth.csv PreconceptionAndInterconceptionHealth.csv MaternalAndNeonatalHealthRisksAndDiscovery.csv AccessAndExperience_Summary.csv SafetyAndQualityInPerinatalAndNeonatalCare_Summary.csv MaternalAndMentalHealth_Summary.csv PreconceptionAndInterconceptionHealth_Summary.csv MaternalAndNeonatalHealthRisksAndDiscovery_Summary.csv
 
+extract_pes:
+	python extract_PES.py
 
+convert_pes:
+	./convertPES.sh
+
+pes:extract_pes convert_pes
 
