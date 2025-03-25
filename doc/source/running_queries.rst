@@ -74,5 +74,10 @@ The files produced from this particular command are as follows:
 * ``PreconceptionAndInterconceptionHealth.csv``
 * ``MaternalAndNeonatalHealthRisksAndDiscovery .csv``
 
+Plain English Summaries (PES)
+=============================
 
+``> make pes``
+
+Will extract the relevant PES from the extracted data in Markdown format and convert them to docx too.
 

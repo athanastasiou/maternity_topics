@@ -8,6 +8,7 @@ Prerequesites
 * Linux
 * `DuckDB <www.duckdb.org>`_
 * `gnu make <https://www.gnu.org/software/make/>`_
+* `pandoc <>`_ (Optionally, if you want to convert ``md`` files to another format).
 
 
 Installation
